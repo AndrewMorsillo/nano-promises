@@ -55,6 +55,10 @@ var promisify = function(nano) {
   , 'compact'
   , 'replicate'
   , 'changes'
+  , {
+      name: 'replication'
+    , methods: ['enable', 'query', 'disable']
+    }
   ];
 
   var dbMethods = [
